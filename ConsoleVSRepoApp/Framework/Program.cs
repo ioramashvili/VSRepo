@@ -4,13 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleVSRepoApp
+namespace Framework
 {
-    class Program
+    public class Shared
     {
         static void Main(string[] args)
         {
-            Framework.Shared.Method();
+        }
+
+        public static void Method()
+        {
+            Console.WriteLine("Method");
         }
     }
 }
