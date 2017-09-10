@@ -8,5 +8,6 @@ namespace ConsoleVSRepoApp
 {
     class Test
     {
+        public int Age { get; set; }
     }
 }
